@@ -1,9 +1,15 @@
+import Product from '@/component/Product';
+import ProductCard from '@/component/ProductCard';
 import React from 'react'
 
-const page = () => {
+const HomePage = () => {
   return (
-    <div>page</div>
+    <>
+    <Product />
+    <ProductCard />
+    
+    </>
   )
 }
 
-export default page
+export default HomePage
